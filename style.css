@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+    margin: 0px;
+}
+.menu{
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+}
+.links{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px 5px black;
+}
+.links:hover{
+    font-size: 30px;
+    text-decoration: underline;
+}
+html{
+    scroll-behavior: smooth;
+}
+#welcome{
+    background: linear-gradient( aqua,rgb(64, 141, 64));
+    color: rgb(73, 0, 141);
+}
+.profile{
+    margin-top: 50px;
+    border-radius: 50%;
+}
+h1{
+    font-size: 40px;
+    font-weight: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#name{
+    font-size: 60px;
+    line-height: 1.2;
+    font-family: 'Lobster', cursive;
+}
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Permanent Marker', cursive;
+}
+#bio{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px;
+}
+p{
+    font-size: 25px;
+}
+.line{
+    height: 6px;
+    background-color: blue;
+    width: 70px;
+    margin: auto;
+}
+#writings a{
+    text-shadow: none;
+    text-decoration: underline;
+}
+#writings a:hover{
+    color: black;
+}
+#contact{
+    background-color: brown;
+}
+#contact iframe{
+    width: 100%;
+}
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 a{
+    text-shadow: none;
+    color: white;
+}
